@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#head_div{
+	margin: 0px,auto;
+	width: 1400px;
+	height: 70px;
+	background-color: #282828;
+	
+
+}
+#head_div_leftdiv{
+	height: 70px;
+	width:250px ;
+	margin-left:50px ;
+	float: left;
+}
+#head_div_leftdiv img{
+	height: 60px;
+    width: 250px;
+    margin-top: 5px;
+}
+.head_li{
+	display: inline-block;
+	width: 100px;
+	height: 70px;
+	font-size:22px;
+	font-family:"黑体";
+	color: #c3c3c3;
+	
+	text-align:center;
+	line-height: 70px;
+    	
+}
+.head_li:hover{
+	color: white;
+	background-color:#df4d4e;
+}
+#head_div_rightdiv ul{
+	margin-top: 0px;
+	float: left;
+	
+}
+#head_div_rightdiv{
+	height: 70px;
+	width:1000px;
+	/*background-color: #DBDBDB;*/
+	
+	border: 0px;
+	margin-left:300px;
+}
+/*搜索*/
+#div01_search{
+	float:right;
+	width: 200px;
+	height: 30px;
+	margin-right: 150px;
+	margin-top: 20px;
+	/*line-height: 70px;*/
+	/*background-color: #DBDBDB;*/
+}
+#div01_search input{
+	width: 200px;
+	height: 30px;
+	border-radius:5px;
+	border: 0px,solid #DF4D4E;
+	
+}
+/*第二部分*/
+#div_02{
+	width: 1370px;
+	height: 800px;
+	
+}
+/*中部左边*/
+#div_middle_left a{
+	 text-decoration:none;
+}
+#div_middle_left{
+	width: 200px;
+	height: 1500px;
+	border-radius: 5px;
+	background-color:#282828;
+	border: 0px;
+	float: left;
+}
+/*带有标题的div*/
+.div_middle_left00{
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	
+	border: 0px;
+}
+/*设置承载图片div的样式*/
+.div_middle_left00_img{
+	/*background-image:url(../img/jianhao.png);*/
+	width: 30px;
+	height: 30px;
+	float: left;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+/*设置标题里面的字体*/
+.div_middle_left00 p{
+	float: right;
+	line-height: 50px;
+	color:#dbdbdb;
+	font-size: 20px;
+	font-family:"黑体";
+	font-weight:bold;
+	margin-right: 70px;
+}
+/*以下多余*/
+/*.div_middle_left_01_li a{
+	width: 170px;
+	height: 40px;
+	
+	font-size: 15px;
+	font-family:"黑体";
+	line-height: 40px;
+	text-align: center;
+	color: #dbdbdb;
+	margin-left: 60px;
+}
+#div_middle_left_02{
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	
+	border: 0px;
+}
+#div_middle_left_02_img{
+	/*background-image:url(../img/jiahao.png);*/
+	/*width: 30px;
+	height: 30px;
+	float: left;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+#div_middle_left_02 p{
+	float: right;
+	line-height: 50px;
+	color:#dbdbdb;
+	font-size: 20px;
+	font-family:"黑体";
+	font-weight:bold;
+	margin-right: 70px;
+}*/*/
+/*下拉列表*/
+.div_have_class{
+	position: relative;
+}
+.div_have_class a{
+	width: 170px;
+	height: 40px;
+	
+	font-size: 15px;
+	font-family:"黑体";
+	line-height: 40px;
+	text-align: center;
+	color: #dbdbdb;
+	margin-left: 60px;
+}
+/*鼠标移动到下拉列表选项时*/
+.div_have_class:hover a{
+	color: #DF4D4E;
+}
+/*>设置样式*/
+.div_have_class_math{
+	float: right;
+	font-size: 18px;
+	 width:20px;
+	 height: 35px;
+	 line-height: 40px;
+	text-align: center;
+	color: #dbdbdb;
+	margin-right:50px;
+	
+	transition:1s;
+}
+/*鼠标移动到选项时箭头移动*/
+/*.div_have_class_math:hover{
+	margin-right:25px;
+   	color: #DF4D4E;
+}*/
+.div_have_class:hover .div_have_class_math{
+   	margin-right:25px;
+   	color: #DF4D4E;
+   }
+
+/*#div_middle_left_03_img{
+	
+	width: 30px;
+	height: 30px;
+	float: left;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+#div_middle_left_03 p{
+	
+	line-height: 50px;
+	color:#dbdbdb;
+	font-size: 20px;
+	font-family:"黑体";
+	font-weight:bold;
+	margin-right: 70px;
+}*/
+/*中部右边*/
+#div_middle_right{
+	width:1130px ;
+	height: 550px;
+	/*background-color: lightgray;*/
+	border: 1px solid #df4d4e;
+	float: right;
+	margin-top: 8px;
+	margin-right: 27px;
+	border-radius: 5px;
+}
+/*去掉承载网页的边框*/
+#ifrm{
+	border: 1px solid #282828;
+}

@@ -1,0 +1,132 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#div_login_all{
+	background-image: url(../img/whitephoto.png);
+	width: 1370px;
+	height:700px;
+	position: relative;
+	
+}
+#div_login_login{
+	background-image: url(../img/blackphoto.png);
+	
+	width: 570px;
+	height: 300px;
+	border-radius:18px ;
+	opacity: 0.9;
+	box-shadow:3px 3px 5px dimgray;
+	left:40%;
+	top: 30%;
+	position: fixed;
+	overflow: hidden;
+}
+#div_login_have01{
+	/*background-color: #DBDBDB;*/
+	width: 350px;
+	height: 80px;
+	
+}
+#div_login_have01 p{
+	color:#DF4D4E;
+	font-family:"黑体";
+	font-size: 35px;
+	margin-left: 30px;
+	margin-top: 12px;
+	line-height: 80px;
+}
+#div_login_have02{
+	margin-top: -15px;
+	position: relative;
+	
+}
+/*前面星号显示*/
+
+
+.have02_input{
+	margin-left: 30px;
+	margin-top: 18px;
+	width:290px;
+	height:40px ;
+	border-radius:5px ;
+}
+#div_login_have03{
+	width: 350px;
+	height: 80px;
+	/*background-color: #DBDBDB;*/
+	font-size: 13px;
+	color: white;
+	/*line-height: 50px;*/
+	
+}
+#div_login_have03 span{
+	margin-left: 3px;
+}
+#have03_a01{
+	color: #DF4D4E;
+}
+#have03_input{
+	margin-left: 40px;
+	margin-top: 25px;
+}
+#have03_button{
+	width:100px;
+	height:40px;
+	border-radius:7px ;
+	margin-left: 15px;
+	margin-top: 20px;
+	
+}
+#have03_button:hover{
+	background-color: #DF4D4E;
+	color: white;
+	/*border:solid;*/
+}
+#div_register_have{
+	position: absolute;
+	width: 220px;
+	height:230px;
+	/*background-color: #DBE4E6;*/
+	top:40px;
+	right:0px;
+	border-left:2px solid #DF4D4E ;
+}
+#have_word01{
+	width: 220px;
+	height: 60px;
+	color:white;
+	font-family:"黑体";
+	font-size: 25px;
+	/*background-color: red;*/
+}
+#have_word01 p{
+	margin-left: 80px;
+	line-height: 60px;
+}
+#have_word02{
+	width: 180px;
+	height: 100px;
+	/*background-color: #389DC1;*/
+	margin-left: 20px;
+	margin-top: 12px;
+	font-size: 15px;
+	color: white;
+}
+#div_register_have_button{
+	/*background-color: #CACACA;*/
+	width: 220px;
+	height: 40px;
+	text-align: center;
+}
+#div_register_have_button button{
+	width:90px;
+	height:30px;
+	border-radius:5px ;
+	font-size: 12px;
+	
+}
+#div_register_have_button button:hover{
+	background-color: #DF4D4E;
+	color: white;
+}

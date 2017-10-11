@@ -1,0 +1,315 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#div_all{
+	width: 1370px;
+	height:700px;
+	hi
+	background-color: #389DC1;
+}
+#div_head{
+	
+	margin: 0px,auto;
+	width: 1370px;
+	height:80px;
+	/*background-color: #C3C3C3;*/
+	border-bottom: 2px solid #DF4D4E;
+}
+#div_head ul{
+	margin-left: 200px;
+	float: left;
+}
+#div_head ul li{
+	margin-left: 10px;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	/*background-color: #389DC1;*/
+}
+#div_head ul li button{
+	
+	/*color: white;
+	background-color: #282828;*/
+	width: 80px;
+	height: 30px;
+}
+
+#div_head_right{
+	/*background-color: #389DC1;*/
+	width: 400px;
+	height: 80px;
+	margin-left: 600px;
+
+}
+#div_head_right input{
+	width: 300px;
+	height: 35px;
+	border-radius:5px ;
+	margin-top: 22px;
+}
+#search_div{
+	float: right;
+	margin-top: 24px;
+	margin-right: 50px;
+	width: 32px;
+	height: 32px;
+	
+	
+}
+#search_div img{
+	opacity: 1;
+}
+#search_div:hover img{
+	opacity: 0;
+}
+#search_div:hover{
+	background-color: white;
+    background-image:url(../img/sousuo.png);
+}
+/*涓棿鏈�澶iv*/
+#div_middle{
+	width: 1370px;
+	height:800px;
+	/*background-color: bisque;*/
+	margin-top: 10px;
+	border: 0px;
+}
+/*涓烘坊鍔犵殑鍟嗗搧娣诲姞灞炴��*/
+.div_middle_list_01{
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 1100px;
+	height: 40px;
+	background-color: white;
+	margin-top: 5px;
+	color:white;
+	background-color:#282828;
+}
+.div_middle_list_02{
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 1100px;
+	height: 60px;
+	background-color: white;
+	margin-top: 7px;
+	border: 1px solid #DF4D4E;
+}
+/*淇敼div閲寀l鏍峰紡*/
+/*.list_ul{
+	
+	background-color: #86D3E4;
+	width: 1100px;
+	height: 40px;
+	list-style-type: none;
+}*/
+/*.list_ul li{
+	display: inline-block;
+	margin-left: 5px;
+	text-align: center;
+}*/
+/*01*/
+.list_ul_li01{
+	/*background-color:red;*/
+	width: 60px;
+	height: 40px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+#ul_li01_input000{
+	
+	
+	margin-top: 15px;
+	
+}
+/*02*/
+.list_ul_li02{
+	/*background-color:#C3C3C3;*/
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+/*03*/
+.list_ul_li03{
+	/*background-color:#F6A7B3;*/
+	width: 450px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+/*04*/
+.list_ul_li04{
+	/*background-color:aliceblue;*/
+	width: 80px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+/*05*/
+.list_ul_li05{
+	/*background-color:aquamarine;*/
+	width: 80px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+/*06*/
+.list_ul_li06{
+	/*background-color:burlywood;*/
+	width: 80px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+/*07*/
+.list_ul_li07{
+	/*background-color:darkcyan;*/
+	width: 150px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+/*灞曠ず鏍�*/
+/*01*/
+.list_ul_li01display{
+	/*background-color:red;*/
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+}
+#ul_li01_input{
+	
+	width: 25px;
+	height: 25px;
+	
+	
+}
+/*02*/
+.list_ul_li02display{
+	/*background-color:#C3C3C3;*/
+	width: 100px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+/*03*/
+.list_ul_li03display{
+	/*background-color:#F6A7B3;*/
+	width: 450px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+}
+/*璁剧疆灏侀潰鐨刣iv*/
+.list_ul_li03_div{
+	float: left;
+	width:50px ;
+	height:60px ;
+	margin-left: 40px;
+	
+}
+.list_ul_li03_div img{
+	width:50px ;
+	height:60px ;
+}
+/*04*/
+.list_ul_li04display{
+	/*background-color:aliceblue;*/
+	width: 80px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+/*05*/
+.list_ul_li05display{
+	/*background-color:aquamarine;*/
+	width: 80px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+.list_ul_li05display img{
+	width: 32px;
+	height: 32px;
+	/*background-color: black;*/
+	margin-top: 15px;
+}
+/*06*/
+.list_ul_li06display{
+	/*background-color:burlywood;*/
+	width: 80px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+/*07*/
+.list_ul_li07display{
+	/*background-color:darkcyan;*/
+	width: 150px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+/*璁剧疆宸﹁竟div*/
+.list_ul_li07_leftdiv{
+	float: left;
+	height: 40px;
+	width: 73px;
+	margin-top: 10px;
+	border-right: 2px solid #DF4D4E;
+	/*background-color:#EEEEEE;*/
+	font-size:17px;
+	line-height: 40px;
+	/*background-color: #389DC1;*/
+}
+.list_ul_li07_leftdiv:hover{
+	color: #DF4D4E;
+}
+.list_ul_li07_rightdiv{
+	float: right;
+	height: 40px;
+	width: 73px;
+	margin-top: 10px;
+	/*background-color:#EEEEEE;*/
+	font-size:17px;
+	line-height: 40px;
+}
+.list_ul_li07_rightdiv:hover{
+	color: #DF4D4E;
+}
