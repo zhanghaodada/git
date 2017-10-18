@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+#div_all{
+	width: 1100px;
+	height: 1200px;
+	/*background-color: gray;*/
+	margin-top: 30px;
+	margin-left: 30px;
+	
+}
+#div_head{
+	width:1100px;
+	height: 60px;
+	border-bottom: 2px solid #DF4D4E;
+	/*line-height: 60px;*/
+	
+}
+.div_head_list{
+	width: 100px;
+	height: 40px;
+	background-color: #282828;
+	border-radius: 8px;
+	overflow: hidden;
+	float: left;
+	line-height: 40px;
+	margin-left: 2px;
+}
+.div_head_list button{
+	width: 100px;
+	height: 40px;
+}
+#div_head_right{
+	/*background-color: #389DC1;*/
+	width: 400px;
+	height: 60px;
+	margin-left: 600px;
+
+}
+#div_head_right input{
+	width: 300px;
+	height: 35px;
+	border-radius:5px ;
+	
+}
+#search_div{
+	float: right;
+	
+	margin-right: 50px;
+	width: 32px;
+	height: 32px;
+	
+	
+}
+#search_div img{
+	opacity: 1;
+}
+#search_div:hover img{
+	opacity: 0;
+}
+#search_div:hover{
+	background-color: white;
+    background-image:url(../img/sousuo.png);
+}
+#div_middle{
+	width: 1100PX;
+	height: 900PX;
+	background-color: whitesmoke;
+	position: relative;
+}
+.div_middle_have{
+	width: 250px;
+	height:300px;
+	border: 1px solid lightgray;
+	border-bottom: 2px solid #DF4D4E;
+	margin-left:20px ;
+	margin-top:10px ;
+	float: left;
+	font-family: "微软雅黑";
+}
+.middle_head{
+	width: 230px;
+	height:30px;
+	background-color: #282828;
+	color: white;
+	line-height: 30px;
+	/*margin-left: 10px;*/
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.middle_head p{
+	margin-left: 20px;
+}
+.pro_name{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.pro_pno{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.pro_name p{
+	float: left;
+	color: darkgray;
+}
+.pro_pno p{
+	float: left;
+	color: darkgray;
+}
+.middle_middle{
+	width: 230px;
+	height:30px;
+	background-color: #282828;
+	color: white;
+	line-height: 30px;
+	/*margin-left: 10px;*/
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.middle_middle p{
+	margin-left: 20px;
+}
+.middle_bottom_p{
+	margin-left:10px;
+	float: left;
+	/*color: red;*/
+}
+.word01{
+	color: red;
+}
+.div_middle_have a{
+	text-decoration: none;
+	color:#282828;
+}
+.div_middle_have a:hover{
+	color:#DF4D4E;
+}
+.middle_a{
+	/*background-color: #72C1D2;*/
+	width:150px ;
+	height: 30px;
+	font-size: 17px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #282828;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+#pagemodel{
+	margin-left:300px;
+	position: absolute;
+	left:150px;
+	top:650px;
+}
+#pagemodel a{
+	color:#282828;
+	text-decoration: none;
+	
+}
+#pagemodel a:hover{
+	color: #DF4D4E;
+}
