@@ -1,0 +1,24 @@
+#list01_have{
+	background-color:whitesmoke;
+	width: 120px;
+	height: 100px;
+	opacity: 0;
+	z-index: -10;
+}
+#list01_have a{
+	text-decoration:none;
+}
+.list01_myorder{
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	color: #282828;
+}
+.list01_myorder:hover{
+	color: #DF4D4E;
+}
+#div_head_list01:hover #list01_have{
+	opacity: 1;
+	z-index: 20;
+}
+

@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#div_all{
+	background-color: whitesmoke;
+	width: 1100px;
+	height: 800px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+#div_head{
+	width: 1100px;
+	height: 60px;
+	/*background-color: bisque;*/
+	border-bottom: 2px solid #DF4D4E;
+}
+#div_head button{
+	width: 100px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 15px;
+	float: left;
+}
+#div_head button:hover{
+	color: #DF4D4E;
+}
+#head_word{
+	width: 200px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	margin-left: 50px;
+}
+#head_word p{
+	float: left;
+}
+#middle_list{
+	width: 1100px;
+	height: 50px;
+	background-color: gainsboro;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.list{
+	width: 1100px;
+	height: 50px;
+	border-bottom: 2px solid white;
+}
+.list01{
+	width: 150px;
+	height:50px ;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	font-family: "微软雅黑";
+	margin-left: 50px;
+}
+.list02{
+	width: 150px;
+	height:50px ;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.list03{
+	width: 150px;
+	height:50px ;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.list04{
+	width: 150px;
+	height:50px ;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.list05{
+	width: 150px;
+	height:50px ;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.list06{
+	width: 150px;
+	height:50px ;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	font-family: "微软雅黑";
+}

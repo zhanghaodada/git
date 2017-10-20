@@ -1,0 +1,279 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body a{
+	text-decoration: none;
+	color: #282828;
+}
+#div_all{
+	width: 1370px;
+	height: 800px;
+	/*background-color: #D5D6E2;*/
+	padding-top: 20px;
+}
+#div_head{
+	width: 1370px;
+	height: 100px;
+	position: relative;
+	/*background-color: bisque;*/
+	
+	
+}
+#head_have{
+	color: #DF4D4E;
+	width: 600px;
+	height: 15px;
+	position: absolute;
+	left: 0px;
+}
+#head_title{
+	width: 200px;
+	height: 100px;
+	font-size: 35px;
+	/*background-color: #CCCCCC;*/
+	font-family: "微软雅黑";
+	line-height: 120px;
+	float: left;
+	margin-left: 100px;
+}
+#head_title img{
+	margin-top: 40px;
+}
+#div_step01{
+	float: left;
+	margin-left: 600px;
+	color:lightgray ;
+	width: 200px;
+	height: 100px;
+	border-bottom: 3px solid lightgray;
+    	
+}
+.step_word01{
+	float: left;
+	width: 30px;
+	height: 100px;
+	font-size: 50px;
+	line-height: 130px;
+}
+
+#div_step02{
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+	height: 100px;
+	color:#DF4D4E ;
+	border-bottom: 3px solid #DF4D4E;
+    	
+}
+.step_word02{
+	/*float: left;*/
+	width: 180px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	
+}
+#div_middle{
+	width: 1370px;
+	height: 500px;
+	/*background-color:whitesmoke;*/
+	
+	padding-top:20px ;
+}
+
+
+
+#order_title{
+	width: 1100px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 30px;
+	
+	font-family: "微软雅黑";
+	font-size: 23px;
+	/*background-color:#CCCCCC ;*/
+}
+#order_have{
+	width: 1200px;
+	
+	border:1px solid #DF4D4E;
+	border-radius:10px ;
+	margin-left: 30px;
+}
+.order_list{
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.order_list01{
+	margin-left:100px;
+	width: 300px;
+	height: 50px;
+	float:left;
+}
+.order_list02{
+	width: 300px;
+	height: 50px;
+	float:left;
+}
+
+.order_list03{
+	width: 300px;
+	height: 50px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+#addr_title{
+	width: 1100px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 30px;
+	
+	font-family: "微软雅黑";
+	font-size: 23px;
+	/*background-color:#CCCCCC ;*/
+}
+#addr_addr{
+	width: 1200px;
+	height: 80px;
+	border:1px solid #DF4D4E;
+	border-radius:10px ;
+	margin-left: 30px;
+}
+#div_01{
+	width: 80px;
+	height: 80px;
+	float: left;
+	line-height: 80px;
+	/*background-color: #DF4D4E;*/
+	font-size:20px ;
+	font-family: "微软雅黑";
+	margin-left: 30px;
+}
+#div_02{
+	width: 900px;
+	height: 80px;
+	float: left;
+	line-height: 80px;
+	/*background-color:pink;*/
+	font-size:20px ;
+	font-family: "微软雅黑";
+}
+#div_03{
+	width: 80px;
+	height: 80px;
+	float: left;
+	line-height: 80px;
+	/*background-color:darkgray;*/
+	font-size:20px ;
+	font-family: "微软雅黑";
+}
+#div_03:hover{
+	color: #DF4D4E;
+}
+#pay_title{
+	width: 1100px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 30px;
+	
+	font-family: "微软雅黑";
+	font-size: 23px;
+}
+#pay_have{
+	width: 1200px;
+	height: 300px;
+	border:1px solid #DF4D4E;
+	border-radius:10px ;
+	margin-left: 30px;
+}
+.list{
+	width: 1200px;
+	height: 80px;
+	/*background-color: #D5D6E2;*/
+	margin-top: 10px;
+}
+.list_list{
+	width: 150px;
+	height: 80px;
+	float: left;
+	margin-left: 30px;
+	/*background-color: antiquewhite;*/
+	/*line-height: 80px;*/
+	
+}
+.list_list:hover{
+	color: #DF4D4E;
+}
+.list_list:hover .list01{
+	background-color: #DF4D4E;
+}
+.list01{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background-color:#282828;
+	float: left;
+	margin-top: 32px;
+	margin-left: 20px;
+}
+.list_con{
+	float:left;
+	width:100px;
+	height:80px;
+	margin-left: 10px;
+	/*background-color: #74777B;*/
+	line-height: 80px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+#div_bottom_a{
+	width: 200px;
+	height: 50px;
+	background-color: #DF4D4E;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-left: 900px;
+	margin-top: 30px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	
+}
+#mask_title{
+	width: 1100px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 30px;
+	font-family: "΢���ź�";
+	font-size: 23px;
+}
+#mask_have{
+	width: 1200px;
+	height: 60px;
+	border:1px solid #DF4D4E;
+	border-radius:10px ;
+	margin-left: 30px;
+	overflow: hidden;
+}
+#mask_have input{
+	width: 1200px;
+	height: 60px;
+	border: none;
+}

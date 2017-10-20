@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#div_head{
+	width:100%;
+	height: 70px;
+	background-color: whitesmoke;
+	position: fixed;
+	top:0px;
+	z-index: 50;
+}
+#div_head_img{
+	margin-left: 100px;
+	margin-top: 5px;
+	float: left;
+}
+#div_head_sreach{
+	width: 300px;
+	height: 30px;
+	float: left;
+	background-color: #282828;
+	margin-top: 20px;
+	border: 2px solid #282828;
+	line-height: 30px;
+}
+#div_head_sreach input{
+	float: left;
+	height:30px;
+	width: 230px;
+	border: 0px;
+	 outline:medium;
+}
+#div_head_sreach p{
+	color: white;
+	margin-left: 240px;
+	line-height: 24px;
+	font-family: "微软雅黑";
+	/*font-size: 17px;*/
+	
+}
+#div_head_sreach a{
+	text-decoration: none;
+}
+#div_head_list01{
+	float:left;
+	margin-left: 100px;
+	/*background-color: aquamarine;*/
+	width: 120px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 17px;
+	font-family: "微软雅黑";
+	color:#282828;
+}
+#div_head_list01:hover{
+	color:#DF4D4E;
+}
+#div_head_list02{
+	float:left;
+	/*background-color: aquamarine;*/
+	width: 120px;
+	height: 70px;
+	color: #282828;
+	text-align: center;
+	line-height: 70px;
+	font-size: 17px;
+	font-family: "微软雅黑";
+}
+#div_head_list02:hover{
+	color:#df4d4e ;
+}
+.div_head_list03{
+	float:left;
+	/*background-color: aquamarine;*/
+	width: 120px;
+	height: 70px;
+	color: #282828;
+	text-align: center;
+	line-height: 70px;
+	font-size: 17px;
+	font-family: "微软雅黑";
+}
+.div_head_list03:hover{
+	color:#df4d4e ;
+}
+#div_middle{
+	width:100%;
+	height: 800px;
+	/*background-color: antiquewhite;*/
+	margin-top: 70px;
+	padding-top:10px ;
+	
+}
+.middle_list{
+	width: 1300px;
+	height: 190px;
+	margin-left: 25px;
+	margin-top: 20px;
+	float:left;
+	/*background-color:lightgray;*/
+}
+.list_list01{
+	width: 1304px;
+	height: 40px;
+	background-color:antiquewhite;
+	line-height: 40px;
+}
+.list01_have01{
+	float: left;
+	margin-left: 10px;
+	
+}
+.list01_have02{
+	float: left;
+	margin-left: 10px;
+	width: 100px;
+	color: #DF4D4E;
+}
+
+.list01_have05{
+	float: left;
+	margin-left: 200px;
+}
+.list01_have06{
+	float: left;
+	margin-left: 10px;
+	color: #DF4D4E;
+}
+.list01_have03{
+	float: left;
+	margin-left: 500px;
+}
+.list01_have04{
+	float: left;
+	margin-left: 10px;
+	color: #DF4D4E;
+}
+
+
+/*商品展示*/
+.list_list02{
+	width: 1300px;
+	height: 150px;
+	border: 2px solid antiquewhite;
+	/*background-color: cadetblue;*/
+}
+.list02_have01{
+	float: left;
+	line-height: 150px;
+}
+.list02_have01 img{
+	width: 100px;
+	height: 120px;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+.list02_have02{
+	float: left;
+	height: 150px;
+	width: 350px;
+	line-height: 150px;
+	text-align: center;
+}
+.list02_have03{
+	float: left;
+	height: 150px;
+	width: 250px;
+	line-height: 150px;
+	text-align: center;
+}
+.list02_have04{
+	float: left;
+	height: 150px;
+	width: 150px;
+	line-height: 150px;
+	text-align: center;
+}
+.list02_have05{
+	float: left;
+	height: 150px;
+	width: 250px;
+	/*background-color: #C0C0C0;*/
+	margin-left: 50px;
+	text-align: center;
+}
+.list02_have05 button{
+	width: 130px;
+	height: 30px;
+	margin-top: 5px;
+	background-color: whitesmoke;
+	color: #282828;
+	border:none;
+}
+.list02_have05 button:hover{
+	color: white;
+	background-color: #DF4D4E;
+}
